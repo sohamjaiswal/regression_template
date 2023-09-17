@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "regression"
+version = "0.1.0"
+description = ""
+authors = ["Soham Jaiswal <sohamjaiswal10@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.11"
+numpy = "^1.24.3"
+pandas = "^2.1.0"
+tensorflow-io-gcs-filesystem = "0.31.0"
+tensorflow = "2.10.0"
+matplotlib = "^3.8.0"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
