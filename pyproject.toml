@@ -12,6 +12,8 @@ pandas = "^2.1.0"
 tensorflow-io-gcs-filesystem = "0.31.0"
 tensorflow = "2.10.0"
 matplotlib = "^3.8.0"
+pydot = "^1.4.2"
+pydotplus = "^2.0.2"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.25.2"
