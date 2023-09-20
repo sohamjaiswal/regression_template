@@ -14,6 +14,7 @@ tensorflow = "2.10.0"
 matplotlib = "^3.8.0"
 pydot = "^1.4.2"
 pydotplus = "^2.0.2"
+scikit-learn = "^1.3.0"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.25.2"
